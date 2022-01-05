@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/galll4.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#main{
+    position: relative;
+   /* height: 150vh; */
+}
+
+.attheading{
+color: white;
+text-shadow: black;
+font-family: sans-serif;
+}
+
+.heading{
+    width: 500px;
+    margin-left: 600px;
+margin-top: 80px;
+position: absolute;
+}
+
+.outputbox{
+    height: 580px;
+    width: 450px;
+    background-color:rgb(17, 19, 19,0.7);
+    margin-bottom: 40px;
+    box-shadow:0 0 10px 1px rgba(37,73,214,0.35);
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.output{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    position: absolute;
+    margin-top: 150px;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    left: 0px;
+    right: 0px;
+
+}
+
+.output img{
+    width: 400px;
+    height:270px;
+    margin-left: 25px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.output p{
+    width: 400px;
+    height:270px;
+    margin-left: 27px;
+    position: absolute;
+    color: white;
+}
+

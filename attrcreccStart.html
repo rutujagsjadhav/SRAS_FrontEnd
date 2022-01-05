@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Login Form Design</title>
+        <link rel="stylesheet" href="assets/css/styleinsec.css">
+
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Travel</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="at_Index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.touristtube.com/" class="nav__link">VR Tour</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="twoOptns.html" class="nav__link active-link">DynPackage</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                   <!---- <div class="nav__dark">
+                        Theme change button 
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div> -->
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <section id="main">
+        <div class="box" style="width: 500px; top:50%; padding-bottom: 20px;">
+            <h2>Inputs for Attraction Recommendations</h2>
+            <form action="">
+                <div class="inputBox">
+                    <input id="username" type="text" name="" required="">
+                    <label for="">Username</label>
+                </div>
+                <div class="inputBox">
+                    <input id="desti" type="text" name="" required="">
+                    <label for="">Destination</label>
+                </div>
+                
+                <div class="inputBox">
+                    <input id="budget" type="number" name="" required="">
+                    <label for="">Budget (between 0-995)</label>
+                </div>
+                <div class="inputBox">
+                    <input id="startd" type="date" name="" required="">
+                    <label for="">Start Date</label>
+                </div>
+                <div class="inputBox">
+                    <input id="endd" type="date" name="" required="">
+                    <label for="">End Date</label>
+                </div>
+    
+                <!-- <a href="#" onclick="getValue();return false;">Get Value</a> -->
+                <button id="nxt" type="submit" style="margin-left: 180px; font-size: 17px; background-color: aqua; border:0; padding: 10px 20px; border-radius: 8px;"><a style="text-decoration: none; color: black; font-size: 17px; text-shadow: .3px .3px 1px black;" href="attractnRecommCriteria.html">Next</a></button>
+            </form>
+            <!-- <p id="abc">hello</p> -->
+        </div>
+    </section>
+    
+    <script>
+        // function getvalues() {
+        //     var UserName=document.getElementById('username').value;
+        //     var Destination=document.getElementById('desti').value;
+        //     var Budget=document.getElementById('budget').value;
+        //     var startdate=document.getElementById('startd').value;
+        //     var enddate=document.getElementById('endd').value;
+        // document.getElementById("nxt").onclick=function(){
+        //     location.href="attractnRecommCriteria.html";
+        // };
+    
+      </script>
+    </body>
+    </html>

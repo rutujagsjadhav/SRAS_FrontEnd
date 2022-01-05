@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Login Form Design</title>
+		<link rel="stylesheet" href="assets/css/styleinsec.css">
+
+    </head>
+   
+	<body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Travel</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="at_Index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.touristtube.com/" class="nav__link">VR Tour</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="twoOptns.html" class="nav__link active-link">DynPackage</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                   <!---- <div class="nav__dark">
+                        Theme change button 
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div> -->
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+
+    <section id="main" style="height: 140vh;">
+	<div class="box">
+		<h2>Inputs for Hotel Recommendations</h2>
+		<form action="">
+			<div class="inputBox">
+				<input id="username" type="text" name="" required="">
+				<label for="">Username</label>
+			</div>
+			<div class="inputBox">
+				<input id="desti" type="text" name="" required="">
+				<label for="">Destination</label>
+			</div>
+			
+			<div class="inputBox">
+				<input id="budget" type="number" name="" required="">
+				<label for="">Budget (between 0-995)</label>
+			</div>
+			<div class="inputBox">
+				<input id="startd" type="date" name="" required="">
+				<label for="">Start Date</label>
+			</div>
+			<div class="inputBox">
+				<input id="endd" type="date" name="" required="">
+				<label for="">End Date</label>
+			</div>
+
+            <h4>Select 5 Criterias</h4>
+			
+            <div class="CriteriaBox">
+				
+				
+                <div class="column">  
+
+                <div class="sep">
+				<input type="checkbox" class="checks" id="crit1" value="Nonsmoking hotel">
+				<label for="crit1">Nonsmoking hotel</label>
+                </div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit2" value="Refrigerator in room">
+				<label for="crit2">Refrigerator in room</label></div>
+           
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit3" value="Wheelchair Access">
+				<label for="crit3">Wheelchair Access</label></div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit4" value="Nonsmoking rooms">
+				<label for="crit4">Nonsmoking rooms</label></div>
+                
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit5" value="Family Rooms">
+				<label for="crit5">Family Rooms</label></div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit6" value="Microwave">
+				<label for="crit6">Microwave</label></div>
+                
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit7" value="Free High Speed Internet Wifi">
+				<label for="crit7">Free High Speed Internet Wifi</label></div>            
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit8" value="Public wifi">
+				<label for="crit8">Public wifi</label></div>
+                </div>
+
+                <div class="columnx">
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit9" value="Breakfast included">
+				<label for="crit9">Breakfast included</label></div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit10" value="Air conditioning">
+				<label for="crit10">Air conditioning</label></div>
+                
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit11" value="Pets Allowed Dog Pet Friendly">
+				<label for="crit11">Pets Allowed Dog Pet Friendly</label></div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit12" value="Laundary Service">
+				<label for="crit12">Laundary Service</label></div>
+        
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit13" value="Free parking">
+				<label for="crit13">Free parking</label></div>
+
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit14" value="Suites">
+				<label for="crit14">Suites</label></div>
+               
+                <div class="sep">
+				<input type="checkbox" class="checks" name="crit15" value="Kitchenette">
+				<label for="crit15">Kitchenette</label></div>
+                </div>
+        
+            </div>
+		
+           
+			<!-- <a href="#" onclick="getValue();return false;">Get Value</a> -->
+            <a href="#"><input style="font-family: sans-serif; font-size: 16px; font-weight:500; text-shadow: .3px .3px 1px black; color: black;" type="submit" value="Get Recommendations" onclick="getValue();return false;"></a>
+		</form>
+        <p id="abc">hello</p>
+	</div>
+</section>
+
+<script>
+    // function getvalues() {
+    //     var UserName=document.getElementById('username').value;
+    //     var Destination=document.getElementById('desti').value;
+    //     var Budget=document.getElementById('budget').value;
+    //     var startdate=document.getElementById('startd').value;
+    //     var enddate=document.getElementById('endd').value;
+
+
+    function getValue() {
+    var checks = document.getElementsByClassName('checks');
+    var str = '';
+    var array=[];
+
+    for ( i = 0; i < 15; i++) {
+        if ( checks[i].checked === true ) {
+            str += checks[i].value + " ";
+            array.push(checks[i].value);
+        }
+    }
+
+    document.getElementById('abc').innerHTML=array;
+
+}
+  </script>
+</body>
+</html>
